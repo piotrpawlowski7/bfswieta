@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Strona www</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage very simple demo." />
+	<meta name="keywords" content="fullpage,jquery,demo,simple" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="./css/examples.css" />
+
+
+	<!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"/> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.6/jquery.fullPage.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+	<script src="https://kit.fontawesome.com/b2aba799cc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<div id="fullpage">
+		<div class="section active" id="section0">
+
+			<div class="jumbo_content">
+				<div class="headimage">
+
+					<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="300px" height="300px" viewBox="0 0 12000 12000" preserveAspectRatio="xMidYMid meet">
+						<g id="layer101" fill="#ffffff" stroke="none">
+						 <path class="leftglass" d="M3925 11383 c-310 -66 -1335 -462 -2255 -871 -643 -286 -946 -451 -980 -532 -15 -36 3 -75 42 -91 42 -17 225 -5 378 25 281 55 808 197 1225 330 86 28 105 31 105 17 0 -8 195 -479 305 -736 19 -44 113 -267 208 -495 96 -228 250 -595 342 -815 92 -220 221 -528 287 -685 65 -157 124 -296 130 -310 6 -14 30 -71 54 -127 l43 -102 -64 -36 c-137 -76 -290 -203 -374 -310 -231 -292 -272 -656 -126 -1115 87 -273 266 -626 516 -1016 204 -320 424 -630 933 -1312 341 -457 564 -761 716 -973 66 -91 126 -171 134 -178 19 -16 159 0 341 39 386 84 693 254 831 461 l24 35 -25 115 c-44 198 -112 523 -175 839 -203 1024 -245 1234 -294 1453 -160 709 -313 1182 -500 1542 -214 413 -467 644 -796 726 -178 44 -436 27 -639 -42 -85 -30 -67 -50 -186 206 -18 39 -52 111 -75 160 -73 154 -121 257 -157 335 -62 133 -554 1182 -595 1270 -36 75 -107 227 -213 455 -56 121 -106 226 -171 364 -35 73 -64 135 -64 136 0 2 -27 60 -60 130 -33 70 -60 130 -60 134 0 4 44 27 98 51 53 24 177 84 276 133 651 323 978 585 926 743 -15 45 -47 60 -105 47z m15 -105 c0 -26 -57 -92 -129 -150 -201 -162 -629 -405 -1036 -588 -142 -64 -155 -72 -155 -102 0 -9 87 -202 194 -430 106 -227 205 -438 218 -468 34 -72 96 -203 174 -369 35 -73 64 -135 64 -136 0 -2 25 -56 56 -121 31 -66 69 -146 84 -179 15 -33 48 -103 72 -155 25 -52 188 -401 363 -775 175 -374 325 -688 333 -697 20 -23 32 -23 116 6 180 62 230 70 421 71 162 0 187 -2 255 -24 146 -46 258 -112 373 -220 219 -207 393 -525 558 -1021 139 -418 259 -924 439 -1840 93 -478 198 -996 236 -1175 19 -88 37 -172 41 -187 l6 -28 -69 0 c-230 0 -764 -254 -948 -450 -26 -27 -49 -50 -51 -50 -2 0 -61 80 -131 178 -117 162 -200 275 -574 777 -70 94 -182 244 -249 335 -67 91 -127 172 -134 180 -14 18 -71 96 -119 162 -18 26 -71 100 -118 165 -47 65 -98 138 -115 163 -16 25 -32 47 -36 50 -3 3 -68 100 -144 215 -76 116 -145 221 -155 235 -40 59 -212 364 -263 466 -116 232 -194 442 -238 639 -31 142 -31 384 0 500 26 99 78 209 135 289 89 125 265 271 436 363 38 20 56 36 58 52 2 12 -11 57 -29 99 -101 242 -144 346 -175 422 -19 47 -41 99 -49 115 -7 17 -50 118 -95 225 -45 107 -87 209 -95 225 -15 35 -51 122 -165 395 -87 210 -134 320 -210 500 -27 63 -104 246 -170 405 -67 160 -136 326 -155 370 -19 44 -71 168 -115 275 -45 107 -89 213 -99 235 -10 22 -26 62 -37 89 -10 26 -28 52 -39 58 -15 7 -66 -5 -200 -47 -411 -128 -889 -258 -1155 -314 -90 -19 -278 -51 -300 -51 -96 0 442 269 1180 589 441 192 475 206 860 361 508 204 814 315 1010 369 49 13 70 13 70 -1z m2680 -8691 c0 -19 -127 -139 -197 -186 -78 -53 -222 -120 -343 -159 -186 -61 -420 -108 -420 -84 0 15 112 107 193 159 160 103 462 237 612 272 63 14 155 13 155 -2z"/>
+						 <path class="leftglass" d="M4660 6910 c-157 -19 -297 -69 -540 -193 -310 -159 -430 -246 -519 -378 -55 -83 -72 -142 -78 -274 -11 -223 59 -470 231 -822 131 -267 257 -480 509 -860 l160 -243 829 0 c455 0 828 2 828 4 0 3 -22 110 -49 238 -152 718 -300 1253 -458 1663 -53 137 -184 399 -254 505 -87 134 -221 264 -320 313 -103 51 -197 64 -339 47z"/>
+						
+						
+						 <path class="rightglass" d="M6725 10105 c-5 -2 -27 -6 -47 -10 -48 -8 -68 -28 -68 -71 0 -25 8 -42 26 -59 107 -99 607 -241 1442 -410 117 -23 216 -45 219 -48 3 -4 -6 -129 -21 -279 -54 -548 -86 -889 -126 -1303 -11 -115 -24 -253 -30 -305 -5 -52 -21 -216 -35 -365 -14 -148 -34 -360 -45 -470 -11 -110 -29 -297 -40 -415 -28 -299 -38 -389 -44 -399 -3 -4 -63 -11 -133 -14 -533 -23 -892 -333 -1023 -882 -99 -417 -100 -961 -5 -1780 26 -219 101 -755 175 -1250 52 -344 128 -883 150 -1060 11 -93 24 -179 29 -191 17 -40 344 -146 569 -184 159 -27 383 -27 504 0 104 23 234 80 241 106 3 11 22 78 42 149 20 72 57 198 82 280 24 83 55 186 68 230 13 44 74 242 135 440 61 198 118 380 125 405 7 25 22 74 33 110 105 346 156 518 192 645 23 83 48 170 55 195 30 96 125 494 160 665 77 382 89 488 89 815 1 273 -1 303 -22 405 -105 490 -401 775 -901 869 -47 9 -85 17 -87 19 -1 1 4 103 12 227 14 250 28 492 49 895 31 559 45 815 55 985 10 174 23 397 59 1078 11 195 22 356 25 359 2 3 103 -1 224 -7 279 -16 793 -8 942 14 244 36 376 93 410 176 28 67 -6 95 -159 131 -205 48 -689 117 -1251 179 -52 5 -135 15 -185 20 -235 27 -775 73 -1110 95 -199 12 -751 20 -780 10z m840 -109 c1186 -83 2545 -249 2545 -311 0 -27 -106 -66 -246 -89 -220 -37 -798 -45 -1174 -16 -100 8 -127 7 -138 -3 -9 -10 -18 -108 -32 -363 -21 -387 -49 -899 -80 -1454 -39 -702 -60 -1077 -75 -1350 -8 -151 -18 -325 -21 -386 -9 -148 -5 -160 48 -169 249 -38 444 -110 584 -216 184 -138 298 -331 354 -599 42 -203 38 -553 -11 -873 -39 -254 -154 -777 -213 -967 -8 -25 -33 -112 -56 -195 -23 -82 -60 -211 -82 -285 -89 -298 -191 -631 -228 -745 -59 -184 -171 -556 -275 -910 -24 -82 -46 -159 -50 -170 -4 -11 -9 -26 -11 -33 -3 -9 -16 -6 -51 12 -83 41 -186 66 -365 86 -285 33 -549 21 -698 -31 -30 -10 -57 -19 -61 -19 -4 0 -12 44 -18 97 -7 54 -18 143 -26 198 -8 55 -29 199 -46 320 -37 264 -54 378 -124 850 -84 568 -125 886 -167 1295 -19 192 -22 283 -22 625 0 366 1 412 22 539 45 280 110 468 220 634 171 259 474 402 852 402 72 0 102 4 113 14 16 16 19 41 48 341 11 115 26 278 34 360 8 83 23 245 35 360 11 116 29 303 40 418 11 114 29 298 40 410 10 111 29 299 40 417 12 118 27 283 35 365 8 83 23 245 35 360 67 688 67 669 17 680 -12 2 -94 18 -182 36 -303 59 -466 93 -550 113 -11 3 -69 17 -130 31 -445 104 -755 202 -755 237 0 14 531 4 825 -16z m308 -9116 c231 -16 428 -62 471 -109 16 -18 15 -19 -21 -34 -104 -41 -175 -52 -348 -52 -164 0 -304 18 -430 55 -216 64 -265 82 -248 93 22 14 146 40 223 47 125 11 189 11 353 0z"/>
+						 <path class="rightglass" d="M7745 5571 c-288 -38 -443 -159 -546 -425 -150 -389 -155 -1143 -14 -2241 14 -104 29 -228 35 -275 6 -47 13 -95 16 -107 l4 -23 704 0 704 0 16 48 c48 152 182 643 245 903 184 759 229 1328 131 1646 -81 264 -247 390 -599 453 -118 22 -586 35 -696 21z"/>
+						 </g>
+						
+						</svg>
+
+				</div>
+				<div class="headtitle animate__animated animate__tada">
+					<img src="./images/zdrowko.png" style='width=700px' class="responsive" alt="">
+				</div>
+				<h2 class="jumbo_title"></h2>
+				<p class="jumbo_smalltitle animate__animated animate__fadeInDown">Nasza kartka świąteczna jest już 11 edycją i w tym roku odeszliśmy od schematu. <br><b>Jest inna,
+						bo
+						w sumie piszemy na WWW, że „jesteśmy inni i działamy inaczej”.</b></p>
+			</div>
+		<div class="mouseanimation">
+			<div class="mouse animate__animated animate__fadeInDown">
+				<div class='icon-scroll w3-animate-opacity'></div>
+			</div>
+		</div>
+
+		</div>
+		<div class="section" id="section1" data-anchor="firstPage">
+			<div class="slide">
+
+				<div class="box">
+					<div class="first">
+						<div class="textbox">
+							<div class="typewriter">
+								<h1>Drodzy klienci, znajomi i przyjaciele </h1>
+							</div><br><br>
+
+							<p>Nie tylko mamy już dosyć 2020, a
+								le po całym roku mamy także wielki mętlik w głowie. Nasza kartka świąteczna jest już 11
+								edycją i
+								w
+								tym roku odeszliśmy od schematu. Jest inna, bo w sumie piszemy na WWW, że „jesteśmy inni
+								i
+								działamy
+								inaczej”.<br><br>
+								Firmową dyskusję zaczęliśmy od tego, czy w ogóle ją robić, czy wypada? „Co” napisać, „do
+								kogo” a
+								na
+								końcu „jak”. Mieliśmy zagwozdkę, czy powinno być po „naszemu”, czy neutralnie czy w
+								ogóle
+								nie
+								drukować i zrobić coś online (mailem i ze skaczącym gifem). Zdecydowaliśmy się po prostu
+								być
+								sobą,
+								bez owijania - tacy jesteśmy, tak myślimy i czujemy.<br><br>
+								2020 nas przeczołgał, w połowie marca zostaliśmy w domach, przestraszeni, siedzący w
+								Internecie,
+								czytający wszystko, co się da. Spotkania na Teams były zabawne raptem przez pierwsze
+								tygodnie, a
+								z
+								czasem zaczęło nam brakować bycia po prostu w biurze, ze sobą. <br><br>Powrót po 2
+								miesiącach
+								był
+								ciężki, a
+								potem wakacje i gigantyczny zastój na mailach...<br><br>
+							</p>
+							<div class="imagebox"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="section" id="section2" data-anchor="secondPage">
+			<div class="box">
+				<div class="second">
+					<div class="textbox">
+						<div class="typewriter">
+							<h1></h1>
+						</div><br><br>
+
+						<p>Zacznijmy jednak od początku. 2020 miał być rokiem wielu planowanych zmian. Od połowy 2019
+							szukaliśmy nowego biura, co przy naszych specyficznych potrzebach było szalenie trudne.
+							Udało się! Zaplanowaliśmy przeprowadzkę na 1 kwietnia, ale nawet dla nas był to niezły Prima
+							Aprilis, bo skończył się na 3 miesięcznym covidowym opóźnieniu. <br><br>
+
+							Cztery razy więcej biura i pięć razy więcej magazynu. Wiecie, przepaść i takie
+							turbodoładowanie dla nas. Wielka kuchnia, piekarnik i płyta indukcyjna, w końcu jest gdzie
+							zrobić jajecznicę i ulubioną pizzę prezesa. Salki, zieleń, prysznic i rest-room z kanapą, a
+							w nim miejsce na bieżnię i rowerek (bo na razie na magazynie mamy niezły, przedświąteczny
+							wycisk). I pewnie w normalnym roku by nas to cieszyło ogromnie, lecz w tym zeszło na dalszy
+							plan.
+
+						</p>
+						<div class="imagebox"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<div class="section" id="section3" data-anchor="thirdPage">
+		<div class="fp-bg"></div>
+		<div class="box">
+			<div class="third">
+
+				<div class="imagebox">
+
+					<img src="./images/firstimage_textone.png" style='width=1200px' class="bigresponsive">
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="section" id="section4" data-anchor="forthPage">
+
+		<div class="box">
+			<div class="forth">
+				<div class="textbox">
+					<div id = "test">
+						<h2>Zacznijmy jednak od początku.</h2>
+					</div>
+					<br><br>
+					<p>2020 miał być rokiem wielu planowanych
+						zmian. Od
+						połowy
+						2019 szukaliśmy nowego biura, co przy naszych specyficznych potrzebach było szalenie
+						trudne. Udało się! <br><br>
+						Zaplanowaliśmy przeprowadzkę na 1 kwietnia, ale nawet dla nas był to
+						niezły Prima Aprilis, bo skończył się na 3 miesięcznym covidowym opóźnieniu. <br><br>
+						Cztery razy
+						więcej biura i pięć razy więcej magazynu. Wiecie, przepaść i takie turbodoładowanie dla
+						nas. Wielka kuchnia, piekarnik i płyta indukcyjna, w końcu jest gdzie zrobić jajecznicę
+						i ulubioną pizzę prezesa. Salki, zieleń, prysznic i rest-room z kanapą, a w nim miejsce
+						na bieżnię i rowerek (bo na razie na magazynie mamy niezły, przedświąteczny wycisk).<br><br>
+						I pewnie w normalnym roku by nas to cieszyło ogromnie, lecz w tym zeszło na dalszy
+						plan. Nawet nie zdążyliśmy z Wami wypić kawy jesienią.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="section" id="section5" data-anchor="fifthPage">
+
+		<div class="box">
+			<div class="fifth">
+
+				<div class="imagebox" >
+					<img src="./images/firstimage_textone.png" style='width=1200px' class="bigresponsive" >
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="section" id="section6" data-anchor="sixPage">
+
+		<div class="box">
+			<div class="sixth">
+
+
+				<div class="textbox">
+					<div class="typewriter">
+						<h2>Nawet nie zdążyliśmy z Wami wypić kawy jesienią.</h2>
+					</div>
+					<br><br>
+					<p>Od marca baliśmy się o zdrowie, o rodziny, ale i firmę (no wiecie, czy „faktury zejdą”). Baliśmy
+						się o to, co będzie z gadżetami i naszymi projektami. Kiedy i czy w ogóle wszystko wróci do
+						normy (do jakiej normy?). Nie wróciło, lecz bardzo się zmieniło. Z perspektywy 4 grudnia ta
+						zmiana jest na plus i to dzięki Wam! Jesteście z nami lojalnie, a my z Wami. Dziękujemy. Staramy
+						się jak możemy wspierać Was we wszystkim czego potrzebujecie i nie oglądać się za
+						siebie.<br><br>
+
+
+						Wróćmy do zmian. W połowie roku przeprojektowaliśmy strukturę, zaczęliśmy też rozbudowywać i
+						wyodrębniać dwa coraz ważniejsze dla Was obszary. Zespół kreatywno-projektowy, który wymyśla,
+						knuje, projektuje i bez salek spotkań, creative roomu i wzorcowni nie dałby rady. I zespół
+						logistyczno-magazynowy, który bez odpowiednich „powierzchni płaskich” nie miałby się gdzie
+						rozpędzić nowym elektrycznym wózkiem paletowym 😉.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="section" id="section7" data-anchor="seventhPage">
+
+		<div class="box">
+			<div class="seventh">
+
+				<div class="imagebox">
+
+					<img src="./images/firstimage_textone.png" style='width=1200px' class="bigresponsive">
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="section" id="section8" data-anchor="eigthPage">
+
+		<div class="box">
+			<div class="eigth">
+
+
+				<div class="textbox">
+					<div class="typewriter">
+						<h2></h2>
+					</div>
+					<br><br>
+					<p>A jak już o paletach mowa, to 2 dni temu wyszedł od nas „deal” mający kilkaset możliwych
+						wariantów różnych zestawów o objętości kilku tysięcy paczek - zajęło to ponad 40 palet, a
+						wysyłka była po domach! Szok! Miesiąc temu wysłaliśmy też gadżetowe palety na Maltę i Cypr.
+						Cypryjczycy piszą „Dear Sonia, very good price and perfect service” 😉 Szkoda, że nie wysłaliśmy
+						tam siebie samych.<br><br>
+
+
+						Jesienią nasz team powiększył się o kilku fajnych specjalistów – senior accounta, grafika i
+						dwóch logistyków. Ale jesienią też przyszedł do nas COVID. Czy w kartce świątecznej wypada pisać
+						o COVID? No… przecież był… dopadł nas, jedni przeszli to łagodnie, inni mieli 10-dniowy ból
+						głowy i bardzo wysoką gorączkę. Węch i smak chyba stracili wszyscy. Naprawdę się cieszymy, że
+						obyło się bez interwencji lekarzy. Wielu tego szczęścia nie ma. <br><br>Dla wszystkich Zdrówko!
+
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section" id="section9" data-anchor="ninthPage">
+
+		<div class="box">
+			<div class="ninth">
+
+				<div class="imagebox">
+
+					<img src="./images/firstimage_textone.png" style='width=1200px' class="bigresponsive">
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="section" id="section10" data-anchor="tenthPage">
+
+		<div class="box">
+			<div class="tenth">
+				<div class="box">
+					<div class="eigth">
+		
+		
+						<div class="textbox">
+							<div class="typewriter">
+								<h2></h2>
+							</div>
+							<p>
+								Mimo wszystkich zakazów, śmiejemy się, że cała nasza ekipa jest już jak rodzina, a firma jest dla nas jak dom. Głupio to zabrzmi, ale gigantyczna ilość pracy jaką mamy od września spina nas, scala i daje kopa na tyle, że brakuje czasu na martwienie się i narzekanie. <br><br>Zaczynaliśmy rok w 17 osób, a teraz jest nas 21 i kilkanaście osób do wsparcia w grudniu. Każdy ma swoje miejsce i jest szalenie potrzebny. Ba! - nawet niezbędny. Robimy swoje i ciśniemy. To dzięki Wam jesteśmy w pełnym składzie i mamy pracę, która sprawia nam sporo frajdy.
+								<br><br>
+								Po prostu – dziękujemy i „zdrówko” w każdym tego słowa znaczeniu.
+								
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="section" id="section11" data-anchor="elventhPage">
+		<div class="boxfooter">
+
+			<div class="footlogo responsive"> <img src="./images/logo.png" style="width:300px"></div>
+			<h3>Najlepszego od beefowców</h3>
+			<div class="boticons">
+				<a href="https://www.instagram.com/bfagencja.pl" target="_blank"><span
+						class="fab fa-linkedin-in"></span></a>
+				<a href="https://www.facebook.com/bfagencja" target="_blank"><span class="fab fa-facebook-f"></span></a>
+				<a href="https://www.instagram.com/bfagencja.pl" target="_blank"><span
+						class="fab fa-instagram"></span></a>
+				<a href="https://bfagencja.pl/" target="_blank"><span class="fas fa-home"></span></a>
+			</div>
+		</div>
+	</div>
+
+	</div>
+	</div>
+
+
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css"></script>
+	<script type="text/javascript" src="./js/fullpage.js"></script>
+	<script type="text/javascript">
+		var myFullpage = new fullpage('#fullpage', {
+			anchors: ['zeroPage', 'firstPage', 'secondPage', 'thirdPage', 'forthPage', 'fifthPage', 'sixPage',
+				'seventhPage', 'eightPage', 'ninthPage', 'tenthPage', 'eleventhPage'
+			],
+			sectionsColor: ['#E30613', '#ffffff', '#E30613', '#ffffff', 'ffffff', '#ffffff', '#ffffff', '#ffffff',
+				'#ffffff', '#ffffff',
+				'#ffffff', '#E30613'
+			],
+			lockAnchors: true,
+			navigation: true,
+			navigationPosition: 'right',
+			scrollingSpeed: 1200,
+			parallax: true,
+
+
+ //testowa
+
+			onLeave: function (origin, destination,  direction) {
+				const section = destination.item;
+				const title = section.querySelector('.textbox');
+				const tl = new TimelineMax({delay: 0.5});
+				tl.fromTo(title, 0.5, {y: "50",
+					opacity: 0}, {y: 0,opacity: 1	});
+                    
+                /*if (destination.index == 4)
+                    {
+                        //typewriter
+                        var wal1 = document.getElementById("test");
+                        wal1.classList.add("typewriter");
+                        wal1.addEventListener('animationend', () => {
+        //wal1.classList.remove("typewriter");
+}); */
+                        
+                        
+                    
+                
+                /*if (destination.index == 5)
+                    {
+                            var wal12 = document.getElementById("test2");
+                            wal12.classList.add("testowa");
+                            wal12.addEventListener('animationend', () => {
+   //     wal12.classList.remove("testowa");
+}); 
+                    }*/
+                   
+                    /*if (section.index == 3 && destination.index == 4)
+                    {
+                        //typewriter
+                        var wal1 = document.getElementById("test");
+                        wal1.classList.add("typewriter");
+                        wal1.addEventListener('animationend', () => {
+        //wal1.classList.remove("typewriter");
+}); */
+                
+					if(destination.index===3 && direction != "up") {
+                        
+                        const imagecont=document.querySelectorAll('.imagebox');
+						tl.fromTo(imagecont,0.7, {x:"100%"}, {x:"0%"})
+						if (destination.index===2) {
+							const imagecont=document.querySelectorAll('.imagebox');
+						tl.fromTo(imagecont,0.7, {x:"0%"}, {x:"0%"})
+						}
+				}
+			},
+            afterLoad : function(origin, destination, direction)
+            {
+                 
+            }
+		});
+	</script>
+
+
+</body>
+
+</html>
